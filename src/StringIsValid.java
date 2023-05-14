@@ -3,10 +3,15 @@ import java.util.Stack;
 
 public class StringIsValid {
     public static void main(String[] args) {
-        boolean isValidString1 = isValid("(()()))");
-        boolean isValidString2 = isValid("(()()))");
-        boolean isValidString3 = isValid("(()()))");
-        boolean isValidString4 = isValid("(()()))");
+        boolean isValidString1 = isValid("(())");
+        boolean isValidString2 = isValid("))((");
+        boolean isValidString3 = isValid("((((((");
+        boolean isValidString4 = isValid("()()(()())");
+
+        System.out.println("isValidString1 = " + isValidString1);
+        System.out.println("isValidString2 = " + isValidString2);
+        System.out.println("isValidString3 = " + isValidString3);
+        System.out.println("isValidString4 = " + isValidString4);
     }
 
     public static boolean isValid(String data) {
