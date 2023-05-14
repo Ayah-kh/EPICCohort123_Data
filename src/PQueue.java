@@ -19,6 +19,9 @@ public class PQueue {
             System.out.println("high = " + high);
             System.out.println("low = " + low);
             System.out.println("==================================");
+
+
+
         }
 
 
